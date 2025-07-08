@@ -179,6 +179,11 @@ const App = () => {
                   className="flex-1 px-5 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all duration-300"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      searchMeals();
+                    }
+                  }}
                 />
                 <button
                   onClick={searchMeals}
@@ -230,6 +235,11 @@ const App = () => {
                   className="flex-1 px-5 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-purple-400 focus:border-transparent transition-all duration-300"
                   value={suggestionIngredients}
                   onChange={(e) => setSuggestionIngredients(e.target.value)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      suggestMealsByIngredients();
+                    }
+                  }}
                 />
                 <select
                   value={mealType}

@@ -1,12 +1,23 @@
-# React + Vite
+GOURMET MEAL EXPLORER: 
+Is an elegant app for exploring high-quality, delicious, and refined meals from around the world.beautifully crafted, user-friendly React.js app that lets you discover delicious meals from around the world with ease. Whether you’re looking for your favorite dish or searching for inspiration based on ingredients you have at home — this app gat you covered!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KEY FEATURES 
+Smart Meal Search: Search meals by name and instantly explore rich recipe details including ingredients and preparation steps.
 
-Currently, two official plugins are available:
+AI-Powered Suggestions: Enter available ingredients and get intelligent meal recommendations, optionally filtered by meal type (e.g., Breakfast, Dessert, vegetarian).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Favorites: Mark and manage your favorite meals, stored locally so they persist across sessions.
 
-## Expanding the ESLint configuration
+Dark Mode Toggle: Seamlessly switch between light and dark themes to match your mood.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Reset & Home Buttons: Quickly return to the starting point or reset your search without refreshing the page.
+
+Responsive & Intuitive UI: Built with modern TailwindCSS for a clean, mobile-friendly design.
+
+ Tech Stack
+React.js (Vite)
+
+TailwindCSS
+
+TheMealDB API.
+
